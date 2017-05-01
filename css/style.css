@@ -1,0 +1,78 @@
+body {
+  background-color: black;
+}
+
+.header {
+  border-radius: 25px 25px 0px 0px;
+  background-color: white;
+  font-family: Georgia;
+  text-align: center;
+  padding: 40px 0px 10px 0px;
+  margin-top: 10px;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+.content {
+  text-align: center;
+  background-color: white;  
+  margin-left: auto ;  
+  margin-right: auto ;
+  padding: 0px 20px 10px 20px;
+}
+
+.innerContent {
+  border-radius: 15px;
+  background-color: black;
+}
+
+blockquote {
+  position: relative;
+  max-width: 400px;
+  font-family: "Times New Roman";
+  quotes: "\201C""\201D""\2018""\2019";
+  margin: 0 auto;  
+}
+
+blockquote h6 {
+  font-size: 18px;
+  color: white;
+  padding: 70px 0px 0px 0px;
+}
+
+blockquote h6:before { 
+  position: absolute;
+  content: open-quote;
+  font-weight: bold;
+  font-size: 100px;
+  color: grey;
+  top: 0;
+  left: 0; 
+} 
+
+blockquote h6:after { 
+  content: close-quote;
+  font-weight: bold;
+  font-size: 100px;
+  color: grey;
+  padding-left: 200px;
+}
+
+.btn-twitter {
+  background-color: #00ACEE;
+  color: #fff;
+}
+
+.btn-twitter:active, .btn-twitter:hover {
+	background: #0075a2;
+	color: #fff; 
+}
+
+.button {
+  border-radius: 0px 0px 25px 25px;
+  background-color: white;
+  text-align: center;
+  padding: 0px 0px 50px 0px;
+  margin-left: auto ;
+  margin-right: auto ;
+}
